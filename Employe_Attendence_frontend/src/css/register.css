@@ -1,0 +1,97 @@
+.register{
+    background: linear-gradient(45deg,rgb(104, 104, 228),skyblue,rgb(231, 125, 183),rgb(209, 43, 209));
+    width: 100vw;
+    min-height: 90vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register .logincontent{
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    width: 60vmin;
+    height: 60vh;
+    text-align: center;
+}
+.register .logincontent .imageinput1{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vmin;
+    font-size: 3vmin;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+}
+.register .logincontent .imageinput2{
+    background-color: white;
+    /* mix-blend-mode: darken; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vmin;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+}
+
+.register .logincontent .imageinput1 img{
+    width: 5vmin;
+    mix-blend-mode: darken;
+
+}
+.register .logincontent .imageinput2 img{
+    width: 5vmin;
+    mix-blend-mode: darken;
+}
+.register h2{
+    font-size: 5vmin;
+}
+.select{
+    padding: 1.5vmin;
+    margin-top: 3vmin;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(145, 230, 145);
+    transition: 0.2s;
+}
+.select:hover{
+    transform: scale(1.1);
+    background-color: rgb(119, 223, 119);
+
+}
+.register .logincontent input{
+    width: 40vmin;
+    padding: 2vmin;
+    /* margin-top: 4vmin; */
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 2.5vmin;
+}
+.register .logincontent input::placeholder{
+    font-size: 2.3vmin;
+}
+.register .logincontent input:focus{
+    border-color: white;
+}
+.register .logincontent .loginbtn{
+    padding: 1vmin;
+    width: 15vmin;
+    border: none;
+    font-size: 2.6vmin;
+    margin-top: 3vmin;
+    background-color: rgb(145, 230, 145);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.register .logincontent .loginbtn:hover{
+    transform: scale(1.1);
+    background-color: rgb(151, 228, 160);
+}

@@ -1,0 +1,52 @@
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0.445);
+    padding: 2vmin;
+    max-height:10vmin ;
+}
+nav img{
+    width:12vmin;
+}
+nav ul{
+    
+    list-style: none;
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    /* background-color: aqua; */
+    align-items: center;
+    
+    width: 100vmin;
+    /* position: fixed; */
+    left: 50vmin;
+
+    
+}
+nav ul li{
+    margin-left: 10vmin;
+    list-style: none;
+    text-decoration: none;
+    font-size: 2.8vmin;
+
+}
+nav ul li {
+    list-style: none;
+    text-decoration:dashed;
+    color:white;
+}
+nav button{
+    padding: 1vmin;
+    width: 15vmin;
+    font-size: 2.8vmin;
+    border: none;
+    cursor: pointer;
+    background-color:rgb(128, 226, 128);
+    color: white;
+    transition: 0.2s;
+}
+nav button:hover{
+    transform: scale(1.05);
+    background-color: rgb(113, 194, 113);
+}

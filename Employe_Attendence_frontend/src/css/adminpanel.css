@@ -1,0 +1,25 @@
+/* src/css/adminPanel.css */
+.admin-panel {
+    padding: 20px;
+    text-align: center;
+}
+
+.admin-panel table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admin-panel th, .admin-panel td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.admin-panel th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.admin-panel td {
+    text-align: center;
+}
