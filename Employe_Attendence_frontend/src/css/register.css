@@ -61,11 +61,6 @@
     background-color: rgb(145, 230, 145);
     transition: 0.2s;
 }
-.select:hover{
-    transform: scale(1.1);
-    background-color: rgb(119, 223, 119);
-
-}
 .register .logincontent input{
     width: 40vmin;
     padding: 2vmin;
@@ -94,4 +89,213 @@
 .register .logincontent .loginbtn:hover{
     transform: scale(1.1);
     background-color: rgb(151, 228, 160);
+}
+@media(max-width:900px){
+    .register{
+        background: linear-gradient(45deg,rgba(104, 104, 228, 0.555),skyblue,rgb(231, 125, 183),rgb(209, 43, 209));
+        width: 100vw;
+        min-height: 90vh ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .register .logincontent{
+        background-color: rgba(255, 255, 255, 0.322);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+        width: 60vmin;
+        height: 60vh;
+        text-align: center;
+    }
+    .register .logincontent .imageinput1{
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vmin;
+        font-size: 3vmin;
+        border: 1px solid rgba(0, 0, 0, 0.205);
+        border-radius: 5px;
+    }
+    .register .logincontent .imageinput2{
+        background-color: white;
+        /* mix-blend-mode: darken; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vmin;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.205);
+        border-radius: 5px;
+    }
+    
+    .register .logincontent .imageinput1 img{
+        width: 5vmin;
+        mix-blend-mode: darken;
+    
+    }
+    .register .logincontent .imageinput2 img{
+        width: 5vmin;
+        mix-blend-mode: darken;
+    }
+    .register h2{
+        font-size: 5vmin;
+    }
+    .register .logincontent input{
+        width: 40vmin;
+        padding: 2vmin;
+        /* margin-top: 4vmin; */
+        outline: none;
+        border: none;
+        background-color: transparent;
+        font-size: 2.5vmin;
+    }
+    .register .logincontent input::placeholder{
+        font-size: 3vmin;
+    }
+    .register .logincontent input:focus{
+        border-color: white;
+    }
+    .register .logincontent .loginbtn{
+        padding: 1vmin;
+        width: 15vmin;
+        border: none;
+        font-size: 3vmin;
+        margin-top: 3vmin;
+        background-color: rgb(145, 230, 145);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .register .logincontent .loginbtn:hover{
+        transform: scale(1.1);
+        background-color: rgb(151, 228, 160);
+    }
+    .register p{
+        font-size: 2.5vmin;
+    }
+    .select{
+        padding: 1.5vmin;
+        margin-top: 3vmin;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        background-color: rgb(145, 230, 145);
+        transition: 0.2s;
+        min-width: 2vmin;
+        font-size: 3vmin;
+    }
+   
+    .select .option{
+        font-size: 1.5vmin;
+        background-color: rgba(135, 207, 235, 0.589);
+    }
+}
+@media(max-width:500px){
+    .register{
+        background: linear-gradient(45deg,rgba(104, 104, 228, 0.555),skyblue,rgb(231, 125, 183),rgb(209, 43, 209));
+        width: 100vw;
+        max-height: 100vh ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .register .logincontent{
+        background-color: rgba(255, 255, 255, 0.322);
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+        min-width: 70vmin;
+        height: 100%;
+        min-height: 50vh;
+        text-align: center;
+        padding: 4vmin;
+        /* position: fixed; */
+    }
+    .register .logincontent .imageinput1{
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3vmin;
+        font-size: 3vmin;
+        border: 1px solid rgba(0, 0, 0, 0.205);
+        border-radius: 5px;
+    }
+    .register .logincontent .imageinput2{
+        background-color: white;
+        /* mix-blend-mode: darken; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vmin;
+        background-color: transparent;
+        border: 1px solid rgba(0, 0, 0, 0.205);
+        border-radius: 5px;
+    }
+    
+    .register .logincontent .imageinput1 img{
+        width: 8vmin;
+        mix-blend-mode: darken;
+    
+    }
+    .register .logincontent .imageinput2 img{
+        width: 8vmin;
+        mix-blend-mode: darken;
+    }
+    .register h2{
+        font-size: 7vmin;
+    }
+    .register .logincontent input{
+        width: 60vmin;
+        padding: 2vmin;
+        /* margin-top: 4vmin; */
+        outline: none;
+        border: none;
+        background-color: transparent;
+        font-size: 3vmin;
+    }
+    .register .logincontent input::placeholder{
+        font-size: 4vmin;
+    }
+    .register .logincontent input:focus{
+        border-color: white;
+    }
+    .register .logincontent .loginbtn{
+        padding: 2.5vmin;
+        width: 30vmin;
+        border: none;
+        font-size: 4vmin;
+        margin-top: 3vmin;
+        background-color: rgb(145, 230, 145);
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .register .logincontent .loginbtn:hover{
+        transform: scale(1.1);
+        background-color: rgb(151, 228, 160);
+    }
+    .select{
+        padding: 1.5vmin;
+        margin-top: 3vmin;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        background-color: rgb(145, 230, 145);
+        transition: 0.2s;
+        min-width: 2vmin;
+        font-size: 4vmin;
+    }
+    
+    .select .option{
+        font-size: 3vmin;
+        background-color: rgba(135, 207, 235, 0.589);
+    }
 }

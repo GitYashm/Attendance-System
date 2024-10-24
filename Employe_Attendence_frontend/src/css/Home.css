@@ -1,3 +1,7 @@
+.main{
+    /* background-color: brown; */
+    margin-top: 14vmin;
+}
 .main .attendanceHeading{
     color: rgb(51, 170, 51);
     font-size: 6vmin;
@@ -75,4 +79,144 @@
 }
 .graph .recentattendance img{
     width: 100%;
+}
+@media (max-width:900px){
+    .main .attendanceHeading{
+        color: rgb(51, 170, 51);
+        font-size: 6vmin;
+        
+    }
+    .main .startbtn1{
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3vmin;
+
+    }
+    .main .startbtn1 button{
+        width: 50vmin;
+        height: 7vh;
+        margin-right: 1vmin;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(94, 194, 94);
+        color: white;
+        font-size: 3.7vmin;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .main .startbtn1 button:hover{
+        transform: scale(1.03);
+    }
+    
+    
+}
+
+@media (max-width:500px){
+    .main .attendanceHeading{
+        color: rgb(51, 170, 51);
+        font-size: 6vmin;
+        
+    }
+    .main .startbtn1{
+        /* background-color: aquamarine; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vmin;
+    }
+    .main .startbtn1 button{
+        width: 50vmin;
+        height: 7vh;
+        margin-right: 1vmin;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(94, 194, 94);
+        color: white;
+        font-size: 3.7vmin;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+    .main .startbtn1 button:hover{
+        transform: scale(1.03);
+    }
+    
+    .details{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        /* background-color: aqua; */
+        margin-top: 2vmin;
+    
+    }
+    .details .total{
+        background-color: blue;
+        color: white;
+        width: 80%;
+        height: 30vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 3vmin;
+    }
+    .details .onTime{
+        background-color: rgb(61, 134, 61);
+        color: white;
+        width: 80%;
+        height: 30vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3vmin;
+    }
+    .details .late{
+        background-color: rgb(231, 95, 95);
+        color: white;
+        width: 80%;
+        height: 30vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3vmin;
+    }
+    .details .absent{
+        background-color: orange;
+        color: white;
+        width: 80%;
+        height: 30vh;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3vmin;
+    }
+    .graph{
+        margin-top: 8vmin;
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top:3vmin ;
+    }
+    .graph .graph-image{
+        width: 100%;
+        /* background-color: burlywood; */
+    }
+    .graph .graph-image img{
+        width: 100%;
+        margin-top: 3vmin;
+    }
+    .graph .recentattendance{
+        width: 100%;
+        
+    }
+    .graph .recentattendance img{
+        width: 100%;
+        margin-top: 3vmin;
+    }
 }

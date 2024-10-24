@@ -22,8 +22,10 @@ const Navbar = ({ isAuthenticated, handleLogout }) => {
         <nav>
             <img src={logo} alt="" />
             <ul>
+                <div className="lists">
                 <li><Link style={{textDecoration:'none'}} to="/">Home</Link></li>
                 {isAdmin() && <li><Link style={{textDecoration:'none'}}  to="/admin">Admin Panel</Link></li>}
+                </div>
             </ul>
             {isAuthenticated && (
                     <>

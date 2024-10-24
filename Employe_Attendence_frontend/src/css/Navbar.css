@@ -2,28 +2,39 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(255, 228, 196, 0.445);
+    background-color: rgb(248, 225, 225);
     padding: 2vmin;
     max-height:10vmin ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%; /* Full width */
+    z-index: 1000;
+    /* position: fixed; */
 }
 nav img{
     width:12vmin;
 }
 nav ul{
-    
     list-style: none;
     display: flex;
     /* text-align: center; */
     justify-content: space-between;
     /* background-color: aqua; */
     align-items: center;
-    
-    width: 100vmin;
-    /* position: fixed; */
-    left: 50vmin;
-
-    
 }
+nav ul .lists{
+    position: relative;
+    top:50%;
+    left: 50%;
+    transform: translate(-60%,0);
+    /* background-color: chartreuse; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vmin;
+}
+
 nav ul li{
     margin-left: 10vmin;
     list-style: none;
@@ -49,4 +60,61 @@ nav button{
 nav button:hover{
     transform: scale(1.05);
     background-color: rgb(113, 194, 113);
+}
+@media (max-width:500px){
+    nav{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(248, 225, 225);
+        padding: 2vmin;
+        max-height:10vmin ;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 98%; /* Full width */
+        z-index: 1000;
+        /* position: fixed; */
+    }
+    nav img{
+        width:12vmin;
+    }
+    nav ul{
+        list-style: none;
+        /* background-color: white; */
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        /* width: 100%; */
+
+    }
+    nav ul .lists{
+        position: relative;
+        top:50%;
+        left: 50%;
+        transform: translate(-60%,0);
+        /* background-color: chartreuse; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 2vmin;
+    }
+    
+   
+    
+    nav button{
+        padding: 1vmin;
+        width: 15vmin;
+        font-size: 2.8vmin;
+        border: none;
+        cursor: pointer;
+        background-color:rgb(128, 226, 128);
+        color: white;
+        transition: 0.2s;
+    }
+    nav button:hover{
+        transform: scale(1.05);
+        background-color: rgb(113, 194, 113);
+    }
+    
 }

@@ -33,20 +33,29 @@ const Home = () => {
         
         <div className="details">
             <div className="total">
+              <div className="content">
                 <h1>450</h1>
                 <p>Total Employee</p>
+                </div>
             </div>
             <div className="onTime">
+              <div className="content">
             <h1>300</h1>
             <p>On Time</p>
             </div>
+            </div>
             <div className="late">
-            <h1>100</h1>
-            <p>Late</p>
+              <div className="content">
+              <h1>100</h1>
+              <p>Late</p>
+              </div>
+            
             </div>
             <div className="absent">
+            <div className="content">
             <h1>50</h1>
             <p>Absent</p>
+            </div>
             </div>
         </div>
         <div className="graph">

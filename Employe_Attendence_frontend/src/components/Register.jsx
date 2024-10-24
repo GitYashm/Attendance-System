@@ -56,8 +56,8 @@ const Register = () => {
                 />
                 </div>
                 <select className='select' value={role} onChange={(e) => setRole(e.target.value)}>
-                    <option value="employee">Employee</option>
-                    <option value="admin">Admin</option>
+                    <option className='option' value="employee">Employee</option>
+                    <option className='option' value="admin">Admin</option>
                 </select>
                 <br />
                 <button className='loginbtn' type="submit">Register</button>

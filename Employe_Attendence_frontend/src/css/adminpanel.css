@@ -1,7 +1,13 @@
 /* src/css/adminPanel.css */
+.adminmain{
+    /* background-color: blue; */
+    margin-top: 17vmin;
+}
 .admin-panel {
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
+    overflow-x: auto;
+    width: 100%;
 }
 
 .admin-panel table {

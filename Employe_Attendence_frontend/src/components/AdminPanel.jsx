@@ -76,8 +76,9 @@ const AdminPanel = () => {
     };
 
     return (
-        <div className="admin-panel">
+        <div className="adminmain">
             <h2>Admin Panel - Users List</h2>
+        <div className="admin-panel">
             {error && <p style={{ color: 'red' }}>{error}</p>}
             <table>
                 <thead>
@@ -120,6 +121,7 @@ const AdminPanel = () => {
                     ))}
                 </tbody>
             </table>
+        </div>
         </div>
     );
 };
